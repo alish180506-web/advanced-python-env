@@ -1,0 +1,13 @@
+# task8.py
+
+word = input("Enter a word (e.g., Hello): ")
+try:
+    N = int(input("Enter the number of repetitions (e.g., 3): "))
+except ValueError:
+    print("Error: Please enter an integer.")
+    N = 0 
+    
+if N > 0:
+    for char in word:
+        repeated_char = char * N
+        print(repeated_char)
