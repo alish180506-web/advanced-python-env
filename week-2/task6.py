@@ -11,3 +11,4 @@ for s in data:
 
 for word in result:
     print(f"'{word}'")
+    
