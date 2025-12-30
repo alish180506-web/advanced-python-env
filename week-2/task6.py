@@ -1,7 +1,13 @@
-def all_eq(lst):
-    max_len = max(len(s) for s in lst)
-    return [s + " " * (max_len - len(s)) for s in lst]
-
-# ДОБАВЬТЕ ЭТИ СТРОКИ:
 data = ["apple", "banana", "kiwi"]
-print(all_eq(data))
+
+max_len = 0
+for s in data:
+    if len(s) > max_len:
+        max_len = len(s)
+
+result = []
+for s in data:
+    result.append(s + "_" * (max_len - len(s)))
+
+for word in result:
+    print(f"'{word}'")
