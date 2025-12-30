@@ -1,4 +1,4 @@
-print("\n--- Array Swap ---")
+print("\n Array Swap")
 m = int(input("Array length: "))
 A = [int(input(f"Element {i}: ")) for i in range(m)]
 print("Original:", A)
