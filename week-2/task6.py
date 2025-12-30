@@ -7,7 +7,8 @@ for s in data:
 
 result = []
 for s in data:
-    result.append(s + "_" * (max_len - len(s)))
+    result.append(s + " " * (max_len - len(s)))
 
 for word in result:
     print(f"'{word}'")
+    
