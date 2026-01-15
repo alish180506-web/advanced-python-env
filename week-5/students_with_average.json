@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Anna",
+        "age": 20,
+        "grades": [
+            90,
+            85,
+            88
+        ],
+        "average_grade": 87.66666666666667
+    },
+    {
+        "name": "Ivan",
+        "age": 21,
+        "grades": [
+            70,
+            75,
+            80
+        ],
+        "average_grade": 75.0
+    }
+]
